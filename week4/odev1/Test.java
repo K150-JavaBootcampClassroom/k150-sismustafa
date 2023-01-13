@@ -11,8 +11,7 @@ import com.mycompany.week4.odev1.customer.CustomerTicket;
 
 import com.mycompany.week4.odev1.fly.Fly;
 import com.mycompany.week4.odev1.fly.FlyType;
-import com.mycompany.week4.odev1.planet.Planet;
-import java.awt.List;
+import com.mycompany.week4.odev1.plane.Plane;
 import java.util.ArrayList;
 import java.util.Arrays;
 
@@ -50,8 +49,7 @@ public class Test {
         // Musterinin Sefer seceimi 
         ms.setFly(fly2);
 
-       
-        Planet tempPl = fly2.getCompany().getPlanet();
+        Plane tempPl = fly2.getCompany().getPlanet();
 
         // ucaga ait bos koltuklari listeleme
         tempPl.emptySeats();
@@ -60,7 +58,6 @@ public class Test {
         tempPl.selectSeat(ms, 4);
 
         // 
-
         ms.ticketInfo();
 
     }

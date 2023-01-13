@@ -7,8 +7,8 @@ package com.mycompany.week4.odev1.company;
 import com.mycompany.week4.odev1.customer.CustomerTicket;
 import com.mycompany.week4.odev1.fly.Fly;
 import com.mycompany.week4.odev1.fly.FlyType;
-import com.mycompany.week4.odev1.planet.Planet;
-import com.mycompany.week4.odev1.planet.SeatType;
+import com.mycompany.week4.odev1.plane.Plane;
+import com.mycompany.week4.odev1.plane.SeatType;
 
 /**
  *
@@ -17,7 +17,7 @@ import com.mycompany.week4.odev1.planet.SeatType;
 public class Pegasus extends Company implements ICompany {
 
     public Pegasus() {
-        super("Pagasus", new Planet("bartin", "Boeing 747"));
+        super("Pagasus", new Plane("bartin", "Boeing 747"));
     }
 
     @Override

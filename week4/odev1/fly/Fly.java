@@ -5,9 +5,6 @@
 package com.mycompany.week4.odev1.fly;
 
 import com.mycompany.week4.odev1.company.Company;
-import com.mycompany.week4.odev1.country.Turkey;
-import com.mycompany.week4.odev1.planet.Planet;
-import java.util.HashMap;
 
 /**
  *

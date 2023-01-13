@@ -4,20 +4,20 @@
  */
 package com.mycompany.week4.odev1.company;
 
-import com.mycompany.week4.odev1.planet.Planet;
+import com.mycompany.week4.odev1.plane.Plane;
 
 /**
  *
  * @author Asus
  */
-public class Company  {
+public class Company {
 
     private String name;
-    private Planet planet;
+    private Plane plane;
 
-    public Company(String name, Planet planet) {
+    public Company(String name, Plane plane) {
         this.name = name;
-        this.planet = planet;
+        this.plane = plane;
     }
 
     public String getName() {
@@ -28,13 +28,12 @@ public class Company  {
         this.name = name;
     }
 
-    public Planet getPlanet() {
-        return planet;
+    public Plane getPlanet() {
+        return plane;
     }
 
-    public void setPlanet(Planet planet) {
-        this.planet = planet;
+    public void setPlanet(Plane plane) {
+        this.plane = plane;
     }
-
 
 }

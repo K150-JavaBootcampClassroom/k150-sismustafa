@@ -7,8 +7,8 @@ package com.mycompany.week4.odev1.customer;
 import com.mycompany.week4.odev1.company.CompanyManager;
 import com.mycompany.week4.odev1.company.ICompany;
 import com.mycompany.week4.odev1.fly.Fly;
-import com.mycompany.week4.odev1.planet.Seat;
-import com.mycompany.week4.odev1.planet.SeatType;
+import com.mycompany.week4.odev1.plane.Seat;
+import com.mycompany.week4.odev1.plane.SeatType;
 
 /**
  *
