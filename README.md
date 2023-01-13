@@ -20,10 +20,10 @@
 * Odev A:
     
     * hava yollari sirketlerine ait seferleri listeleyebilme
-    <img src="week4/images/1.png" width="80%">
+    <img src="week4/images/1.png" width="30%">
     * sefere ait ucagin bos koltuklarini listeleyebilme
-    <img src="week4/images/2.png" width="80%">
+    <img src="week4/images/2.png" width="30%">
 
     * Koltuk secimi sonucunda Bilet bilgileri listelenmektedir; 
         Bilette ayrica hava yoluna ait ozel hizmetler ve hava yoluna ait fiyatlandirma da gosterilmektedir.
-    <img src="week4/images/3.png" width="80%">
+    <img src="week4/images/3.png" width="30%">

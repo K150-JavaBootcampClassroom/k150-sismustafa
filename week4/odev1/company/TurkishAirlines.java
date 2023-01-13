@@ -28,7 +28,7 @@ public class TurkishAirlines extends Company implements ICompany {
         } else if (fly.getFlyType() == FlyType.YURTICI && customerTicket.getSeat().getType() == SeatType.ECONOMIC) {
             status = "Herhangi bir hizmet mevcut degildir";
         } else {
-            status = "Yemek ikram Hizmeti mevcut";
+            status = "Yemek ve Alkollu icecek ikram Hizmeti mevcut";
         }
         return status;
     }

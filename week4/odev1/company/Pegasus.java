@@ -24,9 +24,9 @@ public class Pegasus extends Company implements ICompany {
     public String speciaServicesForFly(Fly fly, CustomerTicket customerTicket) {
         String status = "";
         if (fly.getFlyType() == FlyType.YURTICI && customerTicket.getSeat().getType() == SeatType.BUISNESS) {
-            status = "Yemek ikram Hizmeti mevcut";
+            status = "Yemek ve icecek ikram Hizmeti mevcut";
         } else if (fly.getFlyType() == FlyType.YURTICI && customerTicket.getSeat().getType() == SeatType.ECONOMIC) {
-            status = "Yemek ikram Hizmeti mevcut";
+            status = "icecek ikram Hizmeti mevcut";
         } else {
             status = "Yemek ikram Hizmeti mevcut";
         }
